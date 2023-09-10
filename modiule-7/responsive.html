@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        h1{
+            font-size: 100%;
+            text-align: center;
+        }
+        .gallery{
+            display:flex;
+        }
+        .gallery .card img{
+            width: 50%;
+        }
+        @media screen and (max-width:576px) {
+            .gallery{
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width:576px) {
+            .item{
+                flex-direction: column-reverse;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Webpage style</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="card">
+                <img src="img/t sirt1.avif" alt="">\
+            </div>
+            <div class="text"><h3>T shirt</h3>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque laboriosam nesciunt tempora quam, nostrum, maiores molestiae ut unde expedita ad ipsa quasi. Itaque nemo enim excepturi, modi nam nulla. Eligendi ratione dolore delectus nemo accusantium sit quaerat vero mollitia. In alias eligendi, nemo, eveniet hic consequatur est neque minima, deserunt cupiditate libero ad velit veritatis molestiae quos sit provident eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut necessitatibus quasi quam, consectetur minus consequatur optio. Facere voluptatem, corporis ex impedit accusantium velit, itaque sit tenetur explicabo quaerat provident?</P>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint ipsam amet unde quidem ullam odio deleniti a voluptatem eius? Quidem eligendi placeat cum ex soluta inventore eos deleniti mollitia.</p>
+            </div>
+                
+            
+            
+            
+        </div>
+        <div class="gallery item">
+            <div class="text"><h3>T shirt</h3>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque laboriosam nesciunt tempora quam, nostrum, maiores molestiae ut unde expedita ad ipsa quasi. Itaque nemo enim excepturi, modi nam nulla. Eligendi ratione dolore delectus nemo accusantium sit quaerat vero mollitia. In alias eligendi, nemo, eveniet hic consequatur est neque minima, deserunt cupiditate libero ad velit veritatis molestiae quos sit provident eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ut necessitatibus quasi quam, consectetur minus consequatur optio. Facere voluptatem, corporis ex impedit accusantium velit, itaque sit tenetur explicabo quaerat provident?</P>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint ipsam amet unde quidem ullam odio deleniti a voluptatem eius? Quidem eligendi placeat cum ex soluta inventore eos deleniti mollitia.</p>
+            </div>
+             
+            <div class="card">
+                <img src="img/t sirt1.avif" alt="">\
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,76 @@
+1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            margin-left: 50px;
+            border: 1px solid red;
+            background:grey ;
+        }
+        .box{
+            height: 200px;
+            border: 1px solid blue;
+            background-color: blueviolet;
+        }
+        .box:hover{
+            width: 400px;
+            transform: scale(0.5) rotate(270deg) translateX(100px) translateY(100px);
+            /* transform: matrix(1, 2, 3, 4, 5, 6); */
+            /* transform: perspective(17px); */
+            /* transform: skewY(20deg); */
+        }
+        .card{
+            margin: 50px 0px 10px 100px;
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            border: 1px solid pink;
+            transition:transform 2s ;
+        }
+        .card:hover{
+            transform: rotate(45deg);
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <div class="box">
+            <h2>box-item</h2>
+        </div>
+    </div>
+    <div class="container">
+        <h1></h1>
+        <div class="box">
+            <h2>box-item</h2>
+        </div>
+    </div>
+    <div class="container">
+        <h1></h1>
+        <div class="box">
+            <h2>box-item</h2>
+        </div>
+    </div>
+    <div class="card">
+        <h1>easin arafat</h1>
+    </div>
+    <div class="card">
+        <h1>easin arafat</h1>
+    </div>
+    <div class="card">
+        <h1>easin arafat</h1>
+    </div>
+</body>
+</html>

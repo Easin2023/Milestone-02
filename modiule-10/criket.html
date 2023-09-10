@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .filed{
+            border: 1px solid red;
+        }
+        .filed:hover .bat{
+           transform: rotate(-60deg);
+           transform-origin: top right;
+        }
+        .bat{
+            transition:  transform 0.4s;
+        }
+        .filed:hover .bol{
+            transform: translate(400px);
+        }
+        .bol{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            left: 698px;
+            transition: transform 1s ease-in 0.4s;
+        }
+    </style>
+</head>
+<body>
+        <div class="filed">
+            <img class="bat"  src="png-transparent-cricket-bats-gray-nicolls-batting-baseball-bats-graynicolls-cricket-gray-nicolls-batting-removebg-preview.png" alt="">
+            <div class="bol"></div>
+        </div>
+        
+
+</body>
+</html>

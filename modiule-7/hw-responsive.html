@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img-container{
+            display: flex;
+            
+        }
+        .img-item-2 img{
+            width: 100%;
+        }
+        .img-item-1 img{
+            width: 100%;
+        }
+        .img-small-itrm{
+            display: flex;
+        }
+        .img-small-itrm img{
+            width: 50%;
+        }
+        @media screen and (max-width:576px) {
+            .img-container{
+                flex-direction: column;
+            }
+            .img-item-2{
+                flex-direction: column;
+            }
+            .img-small-itrm {
+                flex-direction: column;
+            }
+            .img-small-itrm img{
+                width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img-container">
+        <div class="img-item-1">
+            <img src="img/holiday1.jpg" alt="">
+        </div>
+        <div class="img-item-2">
+            <img src="img/holiday2.jpg" alt="">
+            <div class="img-small-itrm">
+                <img src="img/holiday3.jpg" alt="">
+                <img src="img/holiday4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

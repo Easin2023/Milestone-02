@@ -1,0 +1,38 @@
+.img-tag{
+    width: 337px;
+    height: 430px;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin:200px 50px 50px 100px;
+}
+.img-tag{
+    padding: 50px;
+}
+.text-and-button{
+    padding: 0px 575px 0px 60px;
+}
+.h1-tag{
+    font-size: 3em;
+}
+.paragraph{
+    font: 1em;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+/* responsive style */
+@media screen and (max-width:625px) {
+    section{
+        flex-direction: column;
+        margin: 15px
+    }
+    .text-and-button{
+        padding: 0px;
+    }
+}
